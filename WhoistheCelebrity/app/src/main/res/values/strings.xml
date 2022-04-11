@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Who is the Celebrity?</string>
+    <string name="picture_of_the_celebrity">Picture of the celebrity</string>
+    <string name="option_a">Option A</string>
+    <string name="option_b">Option B</string>
+    <string name="option_c">Option C</string>
+    <string name="option_d">Option D</string>
+    <string name="help_activity_name">Help</string>
+    <string name="help_game_description">Who is the Celebrity? is an entertainment app that can increase one’s knowledge about celebrities. Different celebrity images will be displayed on the screen and you will need to guess who the celebrity is by selecting one of the four options that are given and clicking on the respective button. A toast message will appear informing if you guessed it right or not. If you guessed it wrong, a toast message will inform the correct answer. Good luck!</string>
+    <string name="help_menu">Help</string>
+</resources>

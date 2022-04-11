@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars_land"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgViewCelebrity"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/picture_of_the_celebrity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnOptionA"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="selectedAnswer"
+        android:tag="0"
+        android:text="@string/option_a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgViewCelebrity"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnOptionB"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="selectedAnswer"
+        android:tag="1"
+        android:text="@string/option_b"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgViewCelebrity"
+        app:layout_constraintTop_toBottomOf="@+id/btnOptionA"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnOptionC"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="selectedAnswer"
+        android:tag="2"
+        android:text="@string/option_c"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgViewCelebrity"
+        app:layout_constraintTop_toBottomOf="@+id/btnOptionB"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnOptionD"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:onClick="selectedAnswer"
+        android:tag="3"
+        android:text="@string/option_d"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgViewCelebrity"
+        app:layout_constraintTop_toBottomOf="@+id/btnOptionC"
+        tools:ignore="TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
